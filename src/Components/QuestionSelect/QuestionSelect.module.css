@@ -4,9 +4,8 @@
     height: 70px;
 
 }
-.select {
-    width: 95%;
-    max-width: 600px;
+.select {  
+    width: fit-content;
     height: 70px;
     margin: 0 auto;
     border: 1px solid var(--border-color);
@@ -14,9 +13,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px 0 30px;
+    padding: 0 10px 0 25px;
     background-color: var(--white-color);
     cursor: pointer;
+}
+
+.select:hover {
+    background-color: var(--hover-color);
 }
 
 .select .select_icon {
@@ -38,7 +41,9 @@
 
 .select p {
     font-size: 1rem;
-    color: var(--text-secondary-color)
+    font-weight: bold;
+    padding-right: 10px;
+    color: var(--text-color)
 }
 
 /* Options style */
@@ -66,40 +71,33 @@
     background-color: var(--white-color);
     animation: slideUp 0.5s ease forwards;
     box-shadow: 0 0 20px 3px rgba(130, 129, 129, 0.412);
+    position: relative;
+    overflow-y: auto;
+}
+
+.options_container::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    border-radius: 10px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--border-color);
 }
 
 .options {
     width: 95%;
-    height: 50%;
+    height: auto;
     max-width: 500px;
-    height: 100%;
     margin: 0 auto;
-    padding: 5vh 30px;
+    padding: 5vh 30px 3vh 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
-    background-color: rgb(255, 145, 145);
+    gap: 30px;
 }
-
-.options_groupe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-.options_groupe .groupe_name {
-    display: block;
-    width: 100%;
-    height: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--text-secondary-color);
-}
-
-
-
-
 
 
 @media (max-width : 500px) {

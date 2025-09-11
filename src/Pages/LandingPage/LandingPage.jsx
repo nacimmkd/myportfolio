@@ -3,11 +3,19 @@ import QuestionSelect from '../../Components/QuestionSelect/QuestionSelect'
 import QuestionButton from '../../Components/QuestionButton/QuestionButton'
 import CvButton from '../../Components/CvButton/CvButton'
 import useLanguage from '../../Context/LanguageContext'
+import { useEffect, useState } from 'react'
 
 
 export default function LandingPage(){
 
+    const [isImgOpen , setIsImgOpen] = useState(false);
     const {data , language , toggleLanguage} = useLanguage();
+
+
+    const handleImageClick = () => {
+        setIsImgOpen(prev => !prev)
+    }
+
 
     return(
         <div className={styles.LandingPage}>
@@ -23,11 +31,14 @@ export default function LandingPage(){
 
             <div className={styles.main}>
                 <div className={styles.title_container}>
-                    <h3 className={styles.name}>Nacim Makedhi</h3>
+                    <h3 className={styles.name}>{language === "en" ? "Hey, I’m" : "Bonjour, je suis"} Nacim 👋</h3>
                     <h1 className={styles.job}>Junior Fullstack Dev & DevOps</h1> 
                 </div>
                 <div className={styles.img_container}>
-                    <img src="/Me/me1.jpg" alt="Image Of Me" />
+                    <img  className={`${isImgOpen ? styles.img_open : ""}`} 
+                          onClick={handleImageClick}
+                          src="/Me/me1.jpg" 
+                          alt="Image Of Me" />
                 </div>
                 <div className={styles.question_feilds_container}>
                     <QuestionSelect/>

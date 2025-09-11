@@ -1,6 +1,6 @@
 .button_container {
     width: 100px;
-    min-height: 80px;
+    height: 80px ;
     border: 1px solid var(--border-color);
     border-radius: 20px;
     color: var(--text-main-color);
@@ -16,6 +16,12 @@
 .button_container:hover {
     filter: blur(0.5px);
     background-color: var(--hover-color);
+}
+
+@media (max-width:500px) {
+    .button_container {
+        height: 60px ;
+    }
 }
 
 
