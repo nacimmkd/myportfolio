@@ -1,0 +1,25 @@
+:root {
+  font-family: sans-serif;
+  --text-main-color : black;
+  --text-secondary-color: rgb(130,130,130);
+  --main-color : #0f0e0e;
+  --hover-color : #0f0e0e11;
+  --white-color : white;
+  --border-color : rgba(128, 128, 128, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;  
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
