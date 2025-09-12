@@ -20,11 +20,13 @@
 .header .cv_btn_container {
     height: 100%;
     width: fit-content;
+    animation: SlowDisplay 1s ease-in;
 }
 
 .header .lang_btn_container {
     height: 100%;
-    width: fit-content; 
+    width: fit-content;
+    animation: SlowDisplay 1s ease-in; 
 }
 
 .lang_btn_container button {
@@ -208,5 +210,16 @@
         transform: translateX(-200%);
     }100% {
         transform: translateX(0); 
+    }
+}
+
+
+@keyframes SlowDisplay {
+    0%{
+        opacity: 0;
+    }50% {
+        opacity: 0;
+    }100% {
+        opacity: 1;
     }
 }
