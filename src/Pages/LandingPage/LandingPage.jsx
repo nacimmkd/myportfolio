@@ -45,7 +45,7 @@ export default function LandingPage(){
                 <div className={`${styles.question_feilds_container} ${isImgOpen ? styles.on_image_open : ""}`}>
                     <QuestionSelect/>
                     <div className={styles.question_buttons_container}>
-                        {data.map(feild => <QuestionButton text={feild.name} icon={feild.icon}/>)}
+                        {data.map((feild,i) => <QuestionButton key={i} text={feild.name} icon={feild.icon}/>)}
                     </div>
                 </div>
             </div>  

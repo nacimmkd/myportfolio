@@ -116,6 +116,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: SlowDisplay 1s ease-in;
 }
 
 
