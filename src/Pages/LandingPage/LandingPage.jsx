@@ -13,12 +13,16 @@ export default function LandingPage(){
 
 
     const handleImageClick = () => {
-        setIsImgOpen(prev => !prev)
+        if(isImgOpen) {setIsImgOpen(false)}
+        else (setIsImgOpen(true))
     }
 
 
     return(
-        <div className={styles.LandingPage} style={{backgroundColor : isImgOpen  ? "rgba(0, 0, 0, 0.412)" : ""}}>
+        <div className={styles.LandingPage} 
+            style={{backgroundColor : isImgOpen  ? "rgba(0, 0, 0, 0.412)" : ""}}
+            onClick={handleImageClick}
+        >
             <div className={`${styles.header} ${isImgOpen ? styles.on_image_open : ""}`}>
                 <div className={styles.cv_btn_container}><CvButton/></div>
                 <div className={styles.lang_btn_container}>
