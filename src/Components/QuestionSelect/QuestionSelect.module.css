@@ -35,8 +35,7 @@
 }
 
 .select_icon i {
-    transition: transform 0.2s ease;
-    transform-origin: center;
+    animation: moveUpDown 1s ease infinite;
 }
 
 .select p {
@@ -120,5 +119,15 @@
     transform: translateY(0);    /* revient à sa place */
     opacity: 1;
   }
+}
+
+@keyframes moveUpDown {
+    0%{
+        transform: translateY(0px);
+    } 50% {
+        transform: translateY(-3px);
+    } 100% {
+        transform: translateY(0px);
+    }
 }
 

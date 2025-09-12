@@ -19,10 +19,7 @@ export default function QuestionSelect() {
       <div className={styles.select} onClick={handleSelectOpen}>
         <p>{language === "en" ? "Ask Me" : "Posez-moi une question"}</p>
         <div className={styles.select_icon}>
-          <i
-            className="fa-solid fa-arrow-right"
-            style={{ transform: isOpen ? 'rotate(90deg)' : 'rotate(-90deg)'}}>
-          </i>
+          <i class="fa-solid fa-angles-up"></i>
         </div>
       </div>
 
