@@ -3,7 +3,7 @@ import QuestionSelect from '../../Components/QuestionSelect/QuestionSelect'
 import QuestionButton from '../../Components/QuestionButton/QuestionButton'
 import CvButton from '../../Components/CvButton/CvButton'
 import useLanguage from '../../Context/LanguageContext'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 
 export default function LandingPage(){
@@ -18,8 +18,8 @@ export default function LandingPage(){
 
 
     return(
-        <div className={styles.LandingPage}>
-            <div className={styles.header}>
+        <div className={styles.LandingPage} style={{backgroundColor : isImgOpen  ? "rgba(0, 0, 0, 0.412)" : ""}}>
+            <div className={styles.header} style={{opacity : isImgOpen ? "0" : "1"}}>
                 <div className={styles.cv_btn_container}><CvButton/></div>
                 <div className={styles.lang_btn_container}>
                     <button onClick={toggleLanguage}>
@@ -37,7 +37,7 @@ export default function LandingPage(){
                 <div className={styles.img_container}>
                     <img  className={`${isImgOpen ? styles.img_open : ""}`} 
                           onClick={handleImageClick}
-                          src="/Me/me1.jpg" 
+                          src="/Me/me2.jpg" 
                           alt="Image Of Me" />
                 </div>
                 <div className={styles.question_feilds_container}>
