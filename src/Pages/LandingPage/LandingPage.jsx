@@ -19,7 +19,7 @@ export default function LandingPage(){
 
     return(
         <div className={styles.LandingPage} style={{backgroundColor : isImgOpen  ? "rgba(0, 0, 0, 0.412)" : ""}}>
-            <div className={styles.header} style={{opacity : isImgOpen ? "0" : "1"}}>
+            <div className={`${styles.header} ${isImgOpen ? styles.on_image_open : ""}`}>
                 <div className={styles.cv_btn_container}><CvButton/></div>
                 <div className={styles.lang_btn_container}>
                     <button onClick={toggleLanguage}>
@@ -30,7 +30,7 @@ export default function LandingPage(){
             </div>
 
             <div className={styles.main}>
-                <div className={styles.title_container}>
+                <div className={`${styles.title_container} ${isImgOpen ? styles.on_image_open : ""}`}>
                     <h3 className={styles.name}>{language === "en" ? "Hey, I’m" : "Bonjour, je suis"} Nacim 👋</h3>
                     <h1 className={styles.job}>Junior Fullstack Dev & DevOps</h1> 
                 </div>
@@ -40,7 +40,7 @@ export default function LandingPage(){
                           src="/Me/me2.jpg" 
                           alt="Image Of Me" />
                 </div>
-                <div className={styles.question_feilds_container}>
+                <div className={`${styles.question_feilds_container} ${isImgOpen ? styles.on_image_open : ""}`}>
                     <QuestionSelect/>
                     <div className={styles.question_buttons_container}>
                         {data.map(feild => <QuestionButton text={feild.name} icon={feild.icon}/>)}
