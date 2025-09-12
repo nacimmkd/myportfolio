@@ -18,7 +18,7 @@ export default function LandingPage(){
 
 
     return(
-        <div className={styles.LandingPage} style={{backgroundColor : isImgOpen  ? "rgba(0, 0, 0, 0.412)" : ""}}>
+        <div className={styles.LandingPage}>
             <div className={`${styles.header} ${isImgOpen ? styles.on_image_open : ""}`}>
                 <div className={styles.cv_btn_container}><CvButton/></div>
                 <div className={styles.lang_btn_container}>
@@ -35,10 +35,12 @@ export default function LandingPage(){
                     <h1 className={styles.job}>Junior Fullstack Dev & DevOps</h1> 
                 </div>
                 <div className={styles.img_container}>
-                    <img  className={`${isImgOpen ? styles.img_open : ""}`} 
-                          onClick={handleImageClick}
+                    <div className={`${styles.img_background} ${isImgOpen ? styles.img_background_in_open : ""}`} onClick={handleImageClick}>
+                        <img  className={`${isImgOpen ? styles.img_open : ""}`} 
                           src="/Me/me2.jpg" 
                           alt="Image Of Me" />
+                    </div>
+                    
                 </div>
                 <div className={`${styles.question_feilds_container} ${isImgOpen ? styles.on_image_open : ""}`}>
                     <QuestionSelect/>
