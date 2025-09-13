@@ -1,6 +1,6 @@
 import styles from './LandingPage.module.css'
-import QuestionSelect from '../../Components/QuestionSelect/QuestionSelect'
-import QuestionButton from '../../Components/QuestionButton/QuestionButton'
+import Select from '../../Components/Select/Select'
+import Block from '../../Components/Block/Block'
 import CvButton from '../../Components/CvButton/CvButton'
 import useLanguage from '../../Context/LanguageContext'
 import { useState } from 'react'
@@ -44,9 +44,9 @@ export default function LandingPage(){
                     
                 </div>
                 <div className={`${styles.question_feilds_container} ${isImgOpen ? styles.on_image_open : ""}`}>
-                    <QuestionSelect/>
+                    <Select/>
                     <div className={styles.question_buttons_container}>
-                        {data.map((feild,i) => <QuestionButton key={i} text={feild.name} icon={feild.icon}/>)}
+                        {data.map((block,i) => <Block key={i} block={block}/>)}
                     </div>
                 </div>
             </div>  

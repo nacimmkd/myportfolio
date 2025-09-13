@@ -6,7 +6,7 @@ export const dataEN = [
     job: "Junior Fullstack Dev & DevOps",
     questions: [
       { 
-        question: "Who are you?", 
+        text: "Who are you?", 
         answer: {
             name : "Nacim Makedhi",
             paragh1 : "I am a passionate developer focused on building efficient and user-friendly applications.",
@@ -21,7 +21,7 @@ export const dataEN = [
     icon: "/icons/projects.svg",
     questions: [
       { 
-        question: "What projects have you worked on?", 
+        text: "What projects have you worked on?", 
         answer: [
           { 
             title: "Lidl PLU", 
@@ -43,7 +43,7 @@ export const dataEN = [
     icon: "/icons/skills.svg",
     questions: [
       { 
-        question: "What are your main skills?", 
+        text: "What are your main skills?", 
         answer: [
           "JavaScript / TypeScript",
           "React / Next.js",
@@ -60,7 +60,7 @@ export const dataEN = [
     icon: "/icons/fun.svg",
     questions: [
       { 
-        question: "What do you do in your free time?", 
+        text: "What do you do in your free time?", 
         answer: {
           hobby1: "Video games 🎮",
           hobby2: "Reading mangas & tech books 📚",
@@ -75,7 +75,7 @@ export const dataEN = [
     icon: "/icons/contact.svg",
     questions: [
       { 
-        question: "How can we contact you?", 
+        text: "How can we contact you?", 
         answer: {
           email: "your.email@example.com",
           linkedin: "https://linkedin.com/in/yourprofile",
@@ -95,7 +95,7 @@ export const dataFR = [
     job: "Développeur Fullstack Junior & DevOps",
     questions: [
       { 
-        question: "Qui es-tu ?", 
+        text: "Qui es-tu ?", 
         answer: {
             name : "Nacim Makedhi",
             paragh1 : "Je suis un développeur passionné, concentré sur la création d’applications efficaces et conviviales.",
@@ -110,7 +110,7 @@ export const dataFR = [
     icon: "/icons/projects.svg",
     questions: [
       { 
-        question: "Sur quels projets as-tu travaillé ?", 
+        text: "Sur quels projets as-tu travaillé ?", 
         answer: [
           { 
             title: "Lidl PLU", 
@@ -132,7 +132,7 @@ export const dataFR = [
     icon: "/icons/skills.svg",
     questions: [
       { 
-        question: "Quelles sont tes compétences principales ?", 
+        text: "Quelles sont tes compétences principales ?", 
         answer: [
           "JavaScript / TypeScript",
           "React / Next.js",
@@ -149,7 +149,7 @@ export const dataFR = [
     icon: "/icons/fun.svg",
     questions: [
       { 
-        question: "Que fais-tu pendant ton temps libre ?", 
+        text: "Que fais-tu pendant ton temps libre ?", 
         answer: {
           hobby1: "Jeux vidéo 🎮",
           hobby2: "Lecture de mangas & livres tech 📚",
@@ -164,7 +164,7 @@ export const dataFR = [
     icon: "/icons/contact.svg",
     questions: [
       { 
-        question: "Comment peut-on te contacter ?", 
+        text: "Comment peut-on te contacter ?", 
         answer: {
           email: "your.email@example.com",
           linkedin: "https://linkedin.com/in/yourprofile",
