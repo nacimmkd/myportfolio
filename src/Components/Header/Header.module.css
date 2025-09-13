@@ -1,0 +1,124 @@
+
+.header {
+    width: 100%;
+    height: 60px;
+    padding: 10px 3vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: opacity 0.8s ease-in;
+    
+}
+
+.logo_container {
+    height: 100%;
+    aspect-ratio: 1/1;
+    align-content: center;
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    background-color: var(--main-color);
+    cursor: pointer; 
+    animation: SlowDisplay 1s ease-in; 
+}
+
+.logo_container a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cv_btn_container {
+    height: 100%;
+    width: fit-content;
+    align-content: center;
+    border: none;
+    border-radius: 30px;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    animation: SlowDisplay 1s ease-in; 
+    cursor: pointer;  
+}
+
+.cv_btn_container a {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.cv_btn_container .cv_complete_name {
+    padding-right: 0.6em;
+    border-right: 2px solid var(--white-color);
+}
+
+.lang_btn_container {
+    height: 100%;
+    width: fit-content;
+    animation: SlowDisplay 1s ease-in;   
+    cursor: pointer;
+}
+
+.lang_btn_container button {
+    width: fit-content;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1em;
+    font-weight: bold; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    border-radius: 30px;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+
+.header p::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+.hidden{
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+
+@keyframes SlowDisplay {
+    0%{
+        opacity: 0;
+    }50% {
+        opacity: 0;
+    }100% {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width : 500px) {
+    .cv_complete_name {
+        display: none;
+    }
+}

@@ -1,9 +1,9 @@
 import styles from './LandingPage.module.css'
 import Select from '../../Components/Select/Select'
 import Block from '../../Components/Block/Block'
-import CvButton from '../../Components/CvButton/CvButton'
 import useLanguage from '../../Context/LanguageContext'
 import { useState } from 'react'
+import Header from '../../Components/Header/Header'
 
 
 export default function LandingPage(){
@@ -20,15 +20,7 @@ export default function LandingPage(){
 
     return(
         <div className={styles.LandingPage}>
-            <div className={`${styles.header} ${isImgOpen ? styles.on_image_open : ""}`}>
-                <div className={styles.cv_btn_container}><CvButton/></div>
-                <div className={styles.lang_btn_container}>
-                    <button onClick={toggleLanguage}>
-                        <img src="/icons/langIcon.svg" alt="language icom" />
-                        <p>{language === "fr" ? "en" : "fr"}</p>
-                    </button>
-                </div>
-            </div>
+            <Header/>
 
             <div className={styles.main}>
                 <div className={`${styles.title_container} ${isImgOpen ? styles.on_image_open : ""}`}>

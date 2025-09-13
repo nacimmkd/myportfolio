@@ -236,11 +236,9 @@
 
 
 @keyframes SlowDisplay {
-    0%{
+    from{
         opacity: 0;
-    }50% {
-        opacity: 0;
-    }100% {
+    }to {
         opacity: 1;
     }
 }
