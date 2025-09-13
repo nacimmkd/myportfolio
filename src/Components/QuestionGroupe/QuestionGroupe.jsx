@@ -1,4 +1,4 @@
-import styles from './GroupeQuestion.module.css'
+import styles from './QuestionGroupe.module.css'
 import Question from '../Question/Question'
 
 export default function GroupeQuestion({ questionBlock }){
