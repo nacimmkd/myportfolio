@@ -109,13 +109,34 @@
     animation: moveRight 50s linear infinite;
 }
 
-.img_container img {
+
+.img_background {
+    height: 300px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: SlowDisplay 1s ease-in;
+}
+
+
+.img_background img {
     height: 300px;
     width: auto;
     border-radius: 50px;
     object-fit: cover;
     z-index: 10;
     transition: transform .3s ease;
+}
+
+.img_background_in_open {
+    content: '';
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.412);
 }
 
 .img_open {
@@ -178,7 +199,7 @@
     }
 
     .img_open {
-        transform: scale(1.8);
+        transform: scale(2.1);
     }
 
 }

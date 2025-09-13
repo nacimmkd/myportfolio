@@ -2,15 +2,20 @@ import { createContext, useContext, useState } from "react"
 import {dataEN , dataFR} from '../Data/data'
 
 
-const LanguageContext = createContext(dataEN);
+const LanguageContext = createContext();
 
 
 export function LanguageProvider({ children }){
-    const [language , setLanguage] = useState("en");
+    const [language , setLanguage] = useState(() => {
+        return localStorage.getItem("language") || "en";
+    });
     const data = language == "en" ? dataEN : dataFR;
 
     const toggleLanguage = () => {
-        setLanguage(prev => prev == "en" ? "fr" : "en");
+        setLanguage(prev => {
+            if(prev === "en") {localStorage.setItem("language" , "fr" ) ; return "fr"}
+            else {localStorage.setItem("language" , "en") ; return "en"}
+        });
     }
 
     return (

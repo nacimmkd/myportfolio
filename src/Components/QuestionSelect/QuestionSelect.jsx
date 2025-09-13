@@ -19,7 +19,7 @@ export default function QuestionSelect() {
       <div className={styles.select} onClick={handleSelectOpen}>
         <p>{language === "en" ? "Ask Me" : "Posez-moi une question"}</p>
         <div className={styles.select_icon}>
-          <i class="fa-solid fa-angles-up"></i>
+          <i className="fa-solid fa-angles-up"></i>
         </div>
       </div>
 
