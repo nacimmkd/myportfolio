@@ -7,11 +7,7 @@ export const dataEN = [
     questions: [
       { 
         text: "Who are you?", 
-        answer: {
-            name : "Nacim Makedhi",
-            paragh1 : "I am a passionate developer focused on building efficient and user-friendly applications.",
-            paragh2 : "I love creating solutions that combine performance and great user experience.",
-        } 
+        answer: "I am Nacim Makedhi, a passionate developer focused on building efficient and user-friendly applications. I love creating solutions that combine performance and great user experience."
       }
     ]
   },
@@ -22,7 +18,8 @@ export const dataEN = [
     questions: [
       { 
         text: "What projects have you worked on?", 
-        answer: [
+        answer: "I have worked on projects including a mobile app for Lidl to simplify product lookup and management, as well as a responsive portfolio website showcasing my skills and experiences.",
+        componentDetails: [
           { 
             title: "Lidl PLU", 
             description: "A mobile application designed to simplify product lookup and management for Lidl employees.", 
@@ -44,7 +41,8 @@ export const dataEN = [
     questions: [
       { 
         text: "What are your main skills?", 
-        answer: [
+        answer: "My main skills include JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker and CI/CD pipelines, and working with databases such as MySQL and MongoDB.",
+        componentDetails: [
           "JavaScript / TypeScript",
           "React / Next.js",
           "Node.js / Express",
@@ -61,11 +59,7 @@ export const dataEN = [
     questions: [
       { 
         text: "What do you do in your free time?", 
-        answer: {
-          hobby1: "Video games 🎮",
-          hobby2: "Reading mangas & tech books 📚",
-          hobby3: "Sports & hiking 🏔️"
-        }
+        answer: "I enjoy playing video games 🎮, reading mangas & tech books 📚, and doing sports & hiking 🏔️."
       }
     ]
   },
@@ -76,11 +70,7 @@ export const dataEN = [
     questions: [
       { 
         text: "How can we contact you?", 
-        answer: {
-          email: "your.email@example.com",
-          linkedin: "https://linkedin.com/in/yourprofile",
-          github: "https://github.com/yourusername"
-        }
+        answer: "You can reach me via email at your.email@example.com, on LinkedIn: https://linkedin.com/in/yourprofile, or on GitHub: https://github.com/yourusername."
       }
     ]
   }
@@ -96,11 +86,7 @@ export const dataFR = [
     questions: [
       { 
         text: "Qui es-tu ?", 
-        answer: {
-            name : "Nacim Makedhi",
-            paragh1 : "Je suis un développeur passionné, concentré sur la création d’applications efficaces et conviviales.",
-            paragh2 : "J’aime concevoir des solutions qui allient performance et expérience utilisateur.",
-        } 
+        answer: "Je suis Nacim Makedhi, un développeur passionné, concentré sur la création d’applications efficaces et conviviales. J’aime concevoir des solutions qui allient performance et expérience utilisateur."
       }
     ]
   },
@@ -111,7 +97,8 @@ export const dataFR = [
     questions: [
       { 
         text: "Sur quels projets as-tu travaillé ?", 
-        answer: [
+        answer: "J'ai travaillé sur des projets, y compris une application mobile pour Lidl afin de simplifier la recherche et la gestion des produits, ainsi qu'un site portfolio responsive mettant en valeur mes compétences et expériences.",
+        componentDetails: [
           { 
             title: "Lidl PLU", 
             description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
@@ -133,7 +120,8 @@ export const dataFR = [
     questions: [
       { 
         text: "Quelles sont tes compétences principales ?", 
-        answer: [
+        answer: "Mes compétences principales incluent JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker et CI/CD, ainsi que les bases de données comme MySQL et MongoDB.",
+        componentDetails: [
           "JavaScript / TypeScript",
           "React / Next.js",
           "Node.js / Express",
@@ -150,11 +138,7 @@ export const dataFR = [
     questions: [
       { 
         text: "Que fais-tu pendant ton temps libre ?", 
-        answer: {
-          hobby1: "Jeux vidéo 🎮",
-          hobby2: "Lecture de mangas & livres tech 📚",
-          hobby3: "Sport & randonnées 🏔️"
-        }
+        answer: "J’aime jouer aux jeux vidéo 🎮, lire des mangas & livres tech 📚, et faire du sport & des randonnées 🏔️."
       }
     ]
   },
@@ -165,11 +149,7 @@ export const dataFR = [
     questions: [
       { 
         text: "Comment peut-on te contacter ?", 
-        answer: {
-          email: "your.email@example.com",
-          linkedin: "https://linkedin.com/in/yourprofile",
-          github: "https://github.com/yourusername"
-        }
+        answer: "Vous pouvez me contacter par email à your.email@example.com, sur LinkedIn: https://linkedin.com/in/yourprofile, ou sur GitHub: https://github.com/yourusername."
       }
     ]
   }

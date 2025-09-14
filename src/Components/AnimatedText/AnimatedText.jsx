@@ -9,6 +9,9 @@ export default function AnimatedText({text , speed = 50}) {
 
 
     useEffect(()=>{
+        setDisplayedText("");
+        setIndex(0);
+        
         const intervalId = setInterval(()=>{
             if(index < words.length) {
                 setDisplayedText(prev => prev + " " + words[index])
@@ -18,7 +21,7 @@ export default function AnimatedText({text , speed = 50}) {
             }
         },speed)
         return () => clearInterval(intervalId)
-    },[words , index])
+    },[words , speed , text])
 
     return(
         <div className={styles.text_container}>

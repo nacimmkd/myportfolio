@@ -3,7 +3,7 @@ import { useState } from 'react'
 import useLanguage from '../../Context/LanguageContext';
 import Question from '../../Components/Question/Question'
 
-export default function QuestionSelect() {
+export default function QuestionSelect({setQuestion}) {
   const [isOpen, setIsOpen] = useState(false);
   const {data , language} = useLanguage();
 
@@ -34,7 +34,7 @@ export default function QuestionSelect() {
                     <p>{block.name}</p>
                   </div>
                   <div className={styles.questions_container}>
-                    {block.questions.map((q , i) => <Question key={i} question={q}/>)}
+                    {block.questions.map((q , i) => <Question key={i} question={q} onClick={() => {setQuestion(q) ; setIsOpen(false)}}/>)}
                   </div>
                 </div>)}
             </div>

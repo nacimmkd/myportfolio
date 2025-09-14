@@ -3,12 +3,16 @@ import Header from './Components/Header/Header'
 import Landing from './Layouts/Landing/Landing'
 import Answer from './Layouts/Answer/Answer'
 import QuestionPanel from './Layouts/QuestionPanel/QuestionPanel'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function App() {
 
   const [isImgOpen , setIsImgOpen] = useState(false);
-  const [question , setQuestion] = useState("d");
+  const [question , setQuestion] = useState();
+
+  useEffect(()=>{
+    console.log(question);
+  },[question])
  
   return (
     <div className="app_container">
@@ -16,8 +20,8 @@ function App() {
         <Header className={isImgOpen ? "image_open" : ""}/> 
         <div className="main">
           {!question ? <Landing isImageOpen={isImgOpen} onImageClick={setIsImgOpen}/>
-          : <Answer/>}
-          <QuestionPanel className={isImgOpen ? "image_open" : ""}/>
+          : <Answer answer={question.answer}/>}
+          <QuestionPanel className={isImgOpen ? "image_open" : ""} setQuestion={setQuestion}/>
         </div>  
       </div>
     </div>
