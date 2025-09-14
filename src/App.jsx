@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="app_container">
       <div className="page_container">
-        <Header isHidden={isImgOpen}/> 
+        <Header className={isImgOpen ? "image_open" : ""}/> 
         <div className="main">
-          <Landing isImgOpen={isImgOpen} setIsImgOpen={setIsImgOpen}/>
-          <QuestionPanel isImgOpen={isImgOpen}/>
+          <Landing isImageOpen={isImgOpen} onImageClick={setIsImgOpen}/>
+          <QuestionPanel className={isImgOpen ? "image_open" : ""}/>
         </div>  
       </div>
     </div>

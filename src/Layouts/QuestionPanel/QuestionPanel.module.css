@@ -24,13 +24,6 @@
 }
 
 
-/* For animation */
-.on_image_open {
-    opacity: 0;
-    transition: opacity 0.8s ease-in-out;
-}
-
-
 @keyframes moveUp {
     from {
         transform: translateY(100%);

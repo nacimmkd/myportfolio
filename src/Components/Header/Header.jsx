@@ -1,19 +1,19 @@
 import styles from './Header.module.css'
 import useLanguage from '../../Context/LanguageContext'
 
-export default function Header({isHidden , isChat}) {
+export default function Header({className , inChat=false}) {
 
     const {language , toggleLanguage} = useLanguage();
 
     return(
-        <div className={`${styles.header} ${isHidden ? styles.hidden: ""}`}>
-            {isChat && <div className={styles.logo_container}>
+        <div className={`${styles.header} ${className}`}>
+            {inChat && <div className={styles.logo_container}>
                 <a href="#">
                     <img src="/Me/me1.jpg" alt="" />
                 </a>
             </div>}
 
-            {!isChat && <div className={styles.cv_btn_container}>
+            {!inChat && <div className={styles.cv_btn_container}>
                 <a href="lien de cv" target="_blank" rel="noopener noreferrer"> {/* lien de cv ici*/}
                     <p className={styles.cv_complete_name}>Curriculum Vitae</p>
                     <p>CV</p>

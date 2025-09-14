@@ -4,12 +4,12 @@ import Select from '../../Components/Select/Select'
 import Block from '../../Components/Block/Block';
 import useLanguage from '../../Context/LanguageContext'
 
-export default function QuestionPanel({isImgOpen}) {
+export default function QuestionPanel({className}) {
 
     const { data } = useLanguage();
 
     return(
-        <div className={`${styles.question_feilds_container} ${isImgOpen ? styles.on_image_open : ""}`}>
+        <div className={`${styles.question_feilds_container} ${className}`}>
             <Select/>
             <div className={styles.question_buttons_container}>
                 {data.map((block,i) => <Block key={i} block={block}/>)}
