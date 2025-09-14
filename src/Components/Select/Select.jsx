@@ -1,7 +1,7 @@
 import styles from './Select.module.css'
 import { useState } from 'react'
 import useLanguage from '../../Context/LanguageContext';
-import QuestionGroupe from '../QuestionGroupe/QuestionGroupe';
+import Question from '../../Components/Question/Question'
 
 export default function QuestionSelect() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,16 @@ export default function QuestionSelect() {
         <div  className={styles.options_screen} onClick={handleSelectOpen}>
           <div className={styles.options_container} onClick={(e) => e.stopPropagation()}>
             <div className={styles.options}>
-              {data.map((block , i) => <QuestionGroupe key={i} questionBlock={block}/>)}
+              {data.map((block , i) => 
+                <div className={styles.question_groupe_container}>
+                  <div className={styles.groupe_name_container}>
+                    <img src={block.icon} alt="icon" />
+                    <p>{block.name}</p>
+                  </div>
+                  <div className={styles.questions_container}>
+                    {block.questions.map((q , i) => <Question key={i} question={q}/>)}
+                  </div>
+                </div>)}
             </div>
           </div>
         </div>
