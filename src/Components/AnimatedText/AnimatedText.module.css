@@ -1,0 +1,24 @@
+
+.text_container {
+    padding: 1rem 0;
+}
+
+.text_container p {
+    font-size: 1.2rem ;
+    font-weight: 500;
+    animation: SlowDisplay 1s ease;
+}
+
+.text_container p::first-letter {
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+
+@keyframes SlowDisplay {
+    from{
+        opacity: 0;
+    }to {
+        opacity: 1;
+    }
+}

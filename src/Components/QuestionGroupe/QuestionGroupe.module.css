@@ -2,7 +2,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
+    padding: 1vh;
 }
 
 .groupe_name_container {
