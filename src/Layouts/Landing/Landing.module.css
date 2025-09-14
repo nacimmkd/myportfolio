@@ -1,61 +1,6 @@
-.LandingPage {
+.landing_container {
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
-}
-
-.header {
-    width: 100%;
-    height: 60px;
-    padding: 2vh 4vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: opacity 0.8s ease-in;
-}
-
-
-.header .cv_btn_container {
-    height: 100%;
-    width: fit-content;
-    animation: SlowDisplay 1s ease-in;
-}
-
-.header .lang_btn_container {
-    height: 100%;
-    width: fit-content;
-    animation: SlowDisplay 1s ease-in; 
-}
-
-.lang_btn_container button {
-    width: 80px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    border: none;
-    border-radius: 30px;
-    color: var(--white-color);
-    background-color: var(--main-color);
-}
-
-.lang_btn_container p {
-    font-size: 1rem;
-    font-weight: bold;    
-}
-
-
-.lang_btn_container p::first-letter {
-    text-transform: uppercase;
-}
-
-.main {
-    margin-top: 5%;
-    width: 100%;
-    height: 85%;
+    height: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -71,7 +16,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    animation: moveUp 1s ease;
+    animation: moveDown 1s ease;
 }
 
 .title_container .name {
@@ -147,52 +92,13 @@
 }
 
 
-.question_feilds_container {
-    height: fit-content;
-    width: 100%;
-    min-height: 200px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    animation: moveDown 1s ease;
-}
-
-.question_buttons_container {
-    width: 100%;
-    max-width: 800px;
-    height: 100%;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 10px;
-    animation: moveDown 1.5s ease;
-}
-
-
 /* For animation */
 .on_image_open {
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
 }
 
-@media (max-width : 400px) {
-
-    .header {
-        height: 40px;
-        padding: 1vh 2vh;
-    }
-
-    .main {
-        gap: 1vh;
-    }
-
-    .img_container::after {
-        font-size: 30rem;
-    }
+@media (max-width : 500px) {
 
     .img_container img {
         height: 220px;
@@ -201,11 +107,11 @@
     .img_open {
         transform: scale(2.1);
     }
-
 }
 
 
-@keyframes moveUp {
+
+@keyframes moveDown {
     from {
         transform: translateY(-100%);
     }
@@ -214,15 +120,6 @@
     }
 }
 
-
-@keyframes moveDown {
-    from {
-        transform: translateY(100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
 
 @keyframes moveRight {
     0% {

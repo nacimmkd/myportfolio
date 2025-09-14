@@ -1,13 +1,22 @@
 import './App.css'
-import LandingPage from './Pages/LandingPage/LandingPage'
+import Header from './Components/Header/Header'
+import Landing from './Layouts/Landing/Landing'
+import QuestionPanel from './Layouts/QuestionPanel/QuestionPanel'
+import { useState } from 'react'
 
 function App() {
 
-  // handle here pages add a state isChatStarted show chat page
+  const [isImgOpen , setIsImgOpen] = useState(false);
  
   return (
     <div className="app_container">
-      <LandingPage/>
+      <div className="page_container">
+        <Header isHidden={isImgOpen}/> 
+        <div className="main">
+          <Landing isImgOpen={isImgOpen} setIsImgOpen={setIsImgOpen}/>
+          <QuestionPanel isImgOpen={isImgOpen}/>
+        </div>  
+      </div>
     </div>
   )
 }
