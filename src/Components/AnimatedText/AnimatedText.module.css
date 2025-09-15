@@ -6,7 +6,7 @@
 .text_container p {
     font-size: 1.2rem ;
     font-weight: 500;
-    animation: SlowDisplay 1s ease;
+    animation: SlowDisplay 2s ease;
 }
 
 .text_container p::first-letter {

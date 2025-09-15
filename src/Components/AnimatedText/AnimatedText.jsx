@@ -8,20 +8,22 @@ export default function AnimatedText({text , speed = 50}) {
     const [index , setIndex] = useState(0);
 
 
-    useEffect(()=>{
+    useEffect(() => {
         setDisplayedText("");
         setIndex(0);
+    }, [text]); 
+
+
+    useEffect(()=>{
         
-        const intervalId = setInterval(()=>{
+        const time = setTimeout(()=>{
             if(index < words.length) {
-                setDisplayedText(prev => prev + " " + words[index])
+                setDisplayedText(prev => prev + words[index] + " ")
                 setIndex(prev => prev + 1)
-            }else {
-                clearInterval(intervalId)
             }
         },speed)
-        return () => clearInterval(intervalId)
-    },[words , speed , text])
+        return () => clearTimeout(time)
+    },[words , speed , index])
 
     return(
         <div className={styles.text_container}>
