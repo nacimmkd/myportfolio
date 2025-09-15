@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app_container">
       <div className="page_container">
-        <Header className={isImgOpen ? "image_open" : ""}/> 
+        <Header className={isImgOpen ? "image_open" : ""} inChat={question}/> 
         <div className="main">
           {!question ? <Landing isImageOpen={isImgOpen} onImageClick={setIsImgOpen}/>
           : <Answer answer={question.answer}/>}
