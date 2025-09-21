@@ -21,7 +21,7 @@ function App() {
         <div className="main">
           {!question ? <Landing isImageOpen={isImgOpen} onImageClick={setIsImgOpen}/>
           : <Answer answer={question.answer}/>}
-          <QuestionPanel className={isImgOpen ? "image_open" : ""} setQuestion={setQuestion}/>
+          <QuestionPanel className={isImgOpen ? "image_open" : ""} setQuestion={setQuestion} inChat={question}/>
         </div>  
       </div>
     </div>
