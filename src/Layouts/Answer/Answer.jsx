@@ -4,13 +4,8 @@ import AnimatedText from '../../Components/AnimatedText/AnimatedText'
 export default function Answer({answer}){
     return(
         <div className={styles.container}>
-            <div className={styles.logo_container}>
-                <a href="/">
-                    <img src="/Me/me1.jpg" alt="" />
-                </a>
-            </div>
             <div className={styles.answer_container}>
-            <AnimatedText text={answer} speed={100}/>
+                <AnimatedText text={answer} speed={100}/>
             </div>
         </div>
     )
