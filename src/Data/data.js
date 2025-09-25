@@ -9,7 +9,7 @@ export const dataEN = [
         id: "M1",
         text: "Who are you?", 
         answer: "I am Nacim Makedhi, a passionate developer focused on building efficient and user-friendly applications. I love creating solutions that combine performance and great user experience.",
-        details : {fullName : "Nacim Makedhi", image : "/Me/me1.jpg" , dateOfBirth : new Date("2001-04-04") , job : "Junior Fullstack Dev & DevOps" , address : "Paris , France"}
+        details : {fullName : "Nacim Makedhi", image : "/Me/me2.jpg" , dateOfBirth : new Date("2001-04-04") , address : "Paris , France"}
       }
     ]
   },
@@ -93,8 +93,8 @@ export const dataFR = [
       { 
         id: "M1",
         text: "Qui es-tu ?", 
-        answer: "Je suis Nacim Makedhi, un développeur passionné, concentré sur la création d’applications efficaces et conviviales. J’aime concevoir des solutions qui allient performance et expérience utilisateur."
-        
+        answer: "Je suis Nacim Makedhi, un développeur passionné, concentré sur la création d’applications efficaces et conviviales. J’aime concevoir des solutions qui allient performance et expérience utilisateur.",
+        details : {fullName : "Nacim Makedhi", image : "/Me/me2.jpg" , dateOfBirth : new Date("2001-04-04") , address : "Paris , France"}
       }
     ]
   },

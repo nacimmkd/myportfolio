@@ -23,7 +23,11 @@ p {
     padding-top: 1rem;
 }
 
-
+@media (max-width : 500px) {
+    .container {
+        padding-top: 150px;
+    }
+}
 
 @keyframes SlowDisplay {
     from{
