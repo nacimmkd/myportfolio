@@ -6,8 +6,10 @@ export const dataEN = [
     job: "Junior Fullstack Dev & DevOps",
     questions: [
       { 
+        id: "M1",
         text: "Who are you?", 
-        answer: "I am Nacim Makedhi, a passionate developer focused on building efficient and user-friendly applications. I love creating solutions that combine performance and great user experience."
+        answer: "I am Nacim Makedhi, a passionate developer focused on building efficient and user-friendly applications. I love creating solutions that combine performance and great user experience.",
+        details : {fullName : "Nacim Makedhi", image : "/Me/me1.jpg" , dateOfBirth : new Date("2001-04-04") , job : "Junior Fullstack Dev & DevOps" , address : "Paris , France"}
       }
     ]
   },
@@ -17,9 +19,10 @@ export const dataEN = [
     icon: "/icons/projects.svg",
     questions: [
       { 
+        id: "P1",
         text: "What projects have you worked on?", 
         answer: "I have worked on projects including a mobile app for Lidl to simplify product lookup and management, as well as a responsive portfolio website showcasing my skills and experiences.",
-        componentDetails: [
+        details: [
           { 
             title: "Lidl PLU", 
             description: "A mobile application designed to simplify product lookup and management for Lidl employees.", 
@@ -40,9 +43,10 @@ export const dataEN = [
     icon: "/icons/skills.svg",
     questions: [
       { 
+        id: "S1",
         text: "What are your main skills?", 
         answer: "My main skills include JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker and CI/CD pipelines, and working with databases such as MySQL and MongoDB.",
-        componentDetails: [
+        details: [
           "JavaScript / TypeScript",
           "React / Next.js",
           "Node.js / Express",
@@ -58,6 +62,7 @@ export const dataEN = [
     icon: "/icons/fun.svg",
     questions: [
       { 
+        id: "F1",
         text: "What do you do in your free time?", 
         answer: "I enjoy playing video games 🎮, reading mangas & tech books 📚, and doing sports & hiking 🏔️."
       }
@@ -69,6 +74,7 @@ export const dataEN = [
     icon: "/icons/contact.svg",
     questions: [
       { 
+        id: "C1",
         text: "How can we contact you?", 
         answer: "You can reach me via email at your.email@example.com, on LinkedIn: https://linkedin.com/in/yourprofile, or on GitHub: https://github.com/yourusername."
       }
@@ -85,8 +91,10 @@ export const dataFR = [
     job: "Développeur Fullstack Junior & DevOps",
     questions: [
       { 
+        id: "M1",
         text: "Qui es-tu ?", 
         answer: "Je suis Nacim Makedhi, un développeur passionné, concentré sur la création d’applications efficaces et conviviales. J’aime concevoir des solutions qui allient performance et expérience utilisateur."
+        
       }
     ]
   },
@@ -96,9 +104,10 @@ export const dataFR = [
     icon: "/icons/projects.svg",
     questions: [
       { 
+        id: "P1",
         text: "Sur quels projets as-tu travaillé ?", 
         answer: "J'ai travaillé sur des projets, y compris une application mobile pour Lidl afin de simplifier la recherche et la gestion des produits, ainsi qu'un site portfolio responsive mettant en valeur mes compétences et expériences.",
-        componentDetails: [
+        details: [
           { 
             title: "Lidl PLU", 
             description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
@@ -119,9 +128,10 @@ export const dataFR = [
     icon: "/icons/skills.svg",
     questions: [
       { 
+        id: "C1",
         text: "Quelles sont tes compétences principales ?", 
         answer: "Mes compétences principales incluent JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker et CI/CD, ainsi que les bases de données comme MySQL et MongoDB.",
-        componentDetails: [
+        details: [
           "JavaScript / TypeScript",
           "React / Next.js",
           "Node.js / Express",
@@ -137,6 +147,7 @@ export const dataFR = [
     icon: "/icons/fun.svg",
     questions: [
       { 
+        id: "F1",
         text: "Que fais-tu pendant ton temps libre ?", 
         answer: "J’aime jouer aux jeux vidéo 🎮, lire des mangas & livres tech 📚, et faire du sport & des randonnées 🏔️."
       }
@@ -148,6 +159,7 @@ export const dataFR = [
     icon: "/icons/contact.svg",
     questions: [
       { 
+        id: "C1",
         text: "Comment peut-on te contacter ?", 
         answer: "Vous pouvez me contacter par email à your.email@example.com, sur LinkedIn: https://linkedin.com/in/yourprofile, ou sur GitHub: https://github.com/yourusername."
       }
