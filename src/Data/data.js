@@ -76,7 +76,8 @@ export const dataEN = [
       { 
         id: "C1",
         text: "How can we contact you?", 
-        answer: "You can reach me via email at your.email@example.com, on LinkedIn: https://linkedin.com/in/yourprofile, or on GitHub: https://github.com/yourusername."
+        answer: "You can reach me via email at your.email@example.com, on LinkedIn: https://linkedin.com/in/yourprofile, or on GitHub: https://github.com/yourusername.",
+        details : {email : "nacimmakedhi@gmail.com", linkedIn : "nacim-makedhi" , phone_number : "(+33) 758 328 748" , address : "France" }
       }
     ]
   }
@@ -128,7 +129,7 @@ export const dataFR = [
     icon: "/icons/skills.svg",
     questions: [
       { 
-        id: "C1",
+        id: "S1",
         text: "Quelles sont tes compétences principales ?", 
         answer: "Mes compétences principales incluent JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker et CI/CD, ainsi que les bases de données comme MySQL et MongoDB.",
         details: [
@@ -161,7 +162,8 @@ export const dataFR = [
       { 
         id: "C1",
         text: "Comment peut-on te contacter ?", 
-        answer: "Vous pouvez me contacter par email à your.email@example.com, sur LinkedIn: https://linkedin.com/in/yourprofile, ou sur GitHub: https://github.com/yourusername."
+        answer: "Vous pouvez me contacter par email à your.email@example.com, sur LinkedIn: https://linkedin.com/in/yourprofile, ou sur GitHub: https://github.com/yourusername.",
+        details : {email : "nacimmakedhi@gmail.com", linkedIn : "nacim-makedhi" , phone_number : "(+33) 758 328 748" , address : "France" }
       }
     ]
   }
