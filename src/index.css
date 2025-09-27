@@ -5,6 +5,7 @@
   --main-color : #0f0e0e;
   --hover-color : #0f0e0e11;
   --white-color : white;
+  --light-grey-color : rgba(0, 0, 0, 0.047);
   --border-color : rgba(128, 128, 128, 0.3);
 }
 
@@ -12,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
