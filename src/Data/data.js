@@ -4,6 +4,9 @@ export const dataEN = [
     name: "Me",
     icon: "/icons/me.svg",
     job: "Junior Fullstack Dev & DevOps",
+    cv_link: "/cv_nacim_en.pdf",
+    user_photo : "/Me/me1.jpg", 
+    greeting : "Hey, I'm Nacim 👋",
     questions: [
       { 
         id: "M1",
@@ -95,7 +98,10 @@ export const dataFR = [
   { 
     name: "Moi",
     icon: "/icons/me.svg",
-    job: "Développeur Fullstack Junior & DevOps",
+    job: "Junior Fullstack Dev & DevOps",
+    cv_link: "/cv_nacim_fr.pdf",
+    user_photo : "/Me/me1.jpg", 
+    greeting : "Bonjour, je suis Nacim 👋",
     questions: [
       { 
         id: "M1",

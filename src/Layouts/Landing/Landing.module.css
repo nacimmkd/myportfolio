@@ -88,7 +88,7 @@
     height: auto;
     position: fixed;
     box-shadow:  0 0 10px 2px rgba(48, 32, 32, 0.446);
-    transform: scale(2);
+    transform: scale(2.1);
 }
 
 
@@ -98,14 +98,14 @@
     transition: opacity 0.8s ease-in-out;
 }
 
-@media (max-width : 500px) {
+@media (max-width : 600px) {
 
     .img_container img {
         height: 220px;
     }
 
     .img_open {
-        transform: scale(2.1);
+        transform: scale(1.8);
     }
 }
 
