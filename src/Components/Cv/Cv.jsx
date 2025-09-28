@@ -21,10 +21,7 @@ export default function Cv({cv}){
                         <div className={styles.cv_details}>
                             <p>{cv.type}</p>
                             <span></span>
-                            {language === "en" ? 
-                                <p>{`updated ${cv.updatedOn.toLocaleString("en-EN", { month: "long" })} ${cv.updatedOn.getFullYear()}`}</p>
-                                : <p>{`mise à jour ${cv.updatedOn.toLocaleString("fr-FR", { month: "long" })} ${cv.updatedOn.getFullYear()}`}</p>
-                            }
+                            <p>{cv.updatedOn.toLocaleString(language === "en" ? "en-EN" : "fr-FR", { month: "long" })} ${cv.updatedOn.getFullYear()}</p>
                             <span></span>
                             <p>{`${cv.size} MB`}</p>
                         </div>

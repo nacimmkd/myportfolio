@@ -9,7 +9,7 @@ export default function Header({ className , inChat}) {
         <div className={`${styles.header} ${className}`}>
 
             {!inChat && <div className={styles.cv_btn_container}>
-                <a href="/cv_nacim.pdf" target="_blank" rel="noopener noreferrer"> {/* lien de cv ici*/}
+                <a href="/cv_nacim.pdf" target="_blank" rel="noopener noreferrer">
                     <p className={styles.cv_complete_name}>Curriculum Vitae</p>
                     <p>CV</p>
                 </a>
