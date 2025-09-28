@@ -58,7 +58,7 @@ export const dataEN = [
         id: "S2",
         text: "Where can i find you CV ?", 
         answer: "You can Download my cv by click on the link below",
-        details: {name : "Resume" , link : ""}
+        details: {name : "Resume" ,  type : "PDF" , link : "/cv_nacim.pdf" , updatedOn : new Date("2025-08-01"), size : "3.00" } // size En MB
       }
     ]
   },
@@ -150,7 +150,7 @@ export const dataFR = [
         id: "S2",
         text: "Ou puis-je trouver ton CV ?", 
         answer: "Vous pouvez le visualiser en cliquant le lien ci dessous",
-        details: {name : "Resume" , link : "/cv_nacim.pdf"}
+        details: {name : "Resume" ,  type : "PDF" , link : "/cv_nacim.pdf" , updatedOn : new Date("2025-08-01") , size : "3.00" } // size En MB
       }
     ]
   },

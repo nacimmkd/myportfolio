@@ -7,6 +7,7 @@
   --white-color : white;
   --light-grey-color : rgba(0, 0, 0, 0.047);
   --border-color : rgba(128, 128, 128, 0.3);
+  --blue-color : hsl(209.87,99.13%,44.9%);
 }
 
 * {
