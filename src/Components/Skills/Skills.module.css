@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    height: fit-content;  
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: var(--light-grey-color);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    animation: moveDown 1s ease;
+}
+
+.container .name {
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.skill_feild_container{
+    width: 100%;
+    height: auto;
+}
+
+.feild {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.feild span {
+    color: var(--blue-color)
+}
+
+.skills_container {
+    width: auto;
+    height: auto;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skill {
+    width: auto;
+    height: auto;
+    padding: 0.3rem 1rem;
+    color: var(--white-color);
+    background-color: var(--text-main-color);
+    border-radius: 40px;
+}
+
+
+@media (max-width: 500px) {
+    .container .name {
+        font-size: 1rem;
+    }
+
+    .skill_feild_container h1 {
+        font-size: 1.6rem ;
+    }
+}

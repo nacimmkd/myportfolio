@@ -50,11 +50,9 @@ export const dataEN = [
         text: "What are your main skills?", 
         answer: "My main skills include JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker and CI/CD pipelines, and working with databases such as MySQL and MongoDB.",
         details: [
-          "JavaScript / TypeScript",
-          "React / Next.js",
-          "Node.js / Express",
-          "Docker / CI-CD",
-          "Databases (MySQL, MongoDB)"
+          {feild : "FrontEnd" , skills : ["Javascript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router"]},
+          {feild : "BackEnd" , skills : ["java" , "Spring" , "Spring Boot"]},
+          {feild : "Devops" , skills : ["docker" , "git" , "gitlabCI" , "Jenkins" , "AWS"]}
         ]
       },
       { 
@@ -145,11 +143,9 @@ export const dataFR = [
         text: "Quelles sont tes compétences principales ?", 
         answer: "Mes compétences principales incluent JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker et CI/CD, ainsi que les bases de données comme MySQL et MongoDB.",
         details: [
-          "JavaScript / TypeScript",
-          "React / Next.js",
-          "Node.js / Express",
-          "Docker / CI-CD",
-          "Bases de données (MySQL, MongoDB)"
+          {feild : "FrontEnd" , skills : ["Javascript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router"]},
+          {feild : "BackEnd" , skills : ["java" , "Spring" , "Spring Boot"]},
+          {feild : "Devops" , skills : ["docker" , "git" , "gitlabCI" , "Jenkins" , "AWS"]}
         ]
       },
       { 
