@@ -22,8 +22,8 @@ export default function Project({project}) {
             </div>
 
             {isShown && <div className={styles.links_container}>
-                <a href="">Demo</a>
-                <a href="">Source Code</a>
+                {project.link_demo && <a href={project.link_demo}>Demo</a>}
+                {project.link_demo && <a href={project.link_code}>Source Code</a>}
             </div>}
         </div>
     )
