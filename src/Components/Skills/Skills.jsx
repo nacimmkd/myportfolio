@@ -14,12 +14,12 @@ export default function Skills({skills}) {
             { skills.map((s, i) => 
                 <div key={i} className={styles.skill_feild_container}>
                     <div className={styles.feild}>
-                        <span class="material-symbols-outlined">stacks</span>
+                        <span className="material-symbols-outlined">stacks</span>
                         <h1>{s.feild}</h1>
                     </div>
                     <div className={styles.skills_container}>
                         {s.skills.map((s , j) => 
-                            <div key={i*j} className={styles.skill}><p>{s}</p></div>
+                            <div key={i^j} className={styles.skill}><p>{s}</p></div>
                         )}
                     </div>
                 </div>

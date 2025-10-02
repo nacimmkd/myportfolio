@@ -28,13 +28,35 @@ export const dataEN = [
         details: [
           { 
             title: "Lidl PLU", 
-            description: "A mobile application designed to simplify product lookup and management for Lidl employees.", 
-            image: "path/to/image.jpg" 
+            type: "FrontEnd",
+            description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "",
           },
           { 
-            title: "Portfolio Website", 
-            description: "A responsive portfolio showcasing my skills, experiences, and projects.", 
-            image: "path/to/image2.jpg" 
+            title: "Site Portfolio", 
+            type: "FrontEnd",
+            description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "", 
+          },
+          { 
+            title: "Lidl PLU", 
+            type: "FrontEnd",
+            description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "",
+          },
+          { 
+            title: "Site Portfolio", 
+            type: "FrontEnd",
+            description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "", 
           }
         ]
       }
@@ -121,13 +143,35 @@ export const dataFR = [
         details: [
           { 
             title: "Lidl PLU", 
+            type: "FrontEnd",
             description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
-            image: "path/to/image.jpg" 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "",
           },
           { 
             title: "Site Portfolio", 
+            type: "FrontEnd",
             description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
-            image: "path/to/image2.jpg" 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "", 
+          },
+          { 
+            title: "Lidl PLU", 
+            type: "FrontEnd",
+            description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "",
+          },
+          { 
+            title: "Site Portfolio", 
+            type: "FrontEnd",
+            description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
+            image: "/images/test.png",
+            link_demo : "",
+            link_code : "", 
           }
         ]
       }

@@ -3,16 +3,12 @@ import Header from './Components/Header/Header'
 import Landing from './Layouts/Landing/Landing'
 import Answer from './Layouts/Answer/Answer'
 import QuestionPanel from './Layouts/QuestionPanel/QuestionPanel'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 function App() {
 
   const [isImgOpen , setIsImgOpen] = useState(false);
   const [question , setQuestion] = useState();
-
-  useEffect(()=>{
-    console.log(question);
-  },[question])
  
   return (
     <div className="app_container">

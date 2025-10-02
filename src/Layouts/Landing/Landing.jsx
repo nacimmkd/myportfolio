@@ -3,7 +3,7 @@ import useLanguage from '../../Context/LanguageContext'
 
 export default function Landing({isImageOpen , onImageClick}) {
 
-    const {data , language } = useLanguage();
+    const { data } = useLanguage();
 
     const handleImageClick = () => {
         onImageClick(prev => !prev)
