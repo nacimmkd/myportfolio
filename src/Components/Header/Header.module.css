@@ -9,7 +9,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 1000;
     background: linear-gradient(to bottom , var(--white-color), rgba(255, 255, 255, 0.83) ,  transparent);
 
     display: flex;
