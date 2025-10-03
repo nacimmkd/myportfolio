@@ -12,10 +12,10 @@ export default function Skills({skills}) {
                 <h1>{language === "en" ? "Skills & Expertise" : "Skills & Expertise"}</h1>
             </div>
             { skills.map((s, i) => 
-                <div key={i} className={styles.skill_feild_container}>
-                    <div className={styles.feild}>
+                <div key={i} className={styles.skill_field_container}>
+                    <div className={styles.field}>
                         <span className="material-symbols-outlined">stacks</span>
-                        <h1>{s.feild}</h1>
+                        <h1>{s.field}</h1>
                     </div>
                     <div className={styles.skills_container}>
                         {s.skills.map((s , j) => 

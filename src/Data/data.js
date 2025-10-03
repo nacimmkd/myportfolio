@@ -11,8 +11,13 @@ export const dataEN = [
       { 
         id: "M1",
         text: "Who are you?", 
-        answer: "I am Nacim Makedhi, a passionate developer focused on building efficient and user-friendly applications. I love creating solutions that combine performance and great user experience.",
-        details : {fullName : "Nacim Makedhi", image : "/Me/me2.jpg" , dateOfBirth : new Date("2001-04-04") , address : "Paris , France"}
+        answer: "I am Nacim Makedhi, a Master’s student at Université Sorbonne Paris Nord and an aspiring full-stack developer with DevOps skills. I am passionate about designing and deploying efficient, scalable, and user-friendly applications, combining strong development skills with DevOps practices to ensure performance, reliability, and a seamless user experience. Do you want to see my skills ? ",
+        details : {
+          fullName : "Nacim Makedhi", 
+          image : "/Me/me2.jpg", 
+          dateOfBirth : new Date("2001-04-04"), 
+          address : "Paris, France"
+        }
       }
     ]
   },
@@ -24,39 +29,35 @@ export const dataEN = [
       { 
         id: "P1",
         text: "What projects have you worked on?", 
-        answer: "I have worked on projects including a mobile app for Lidl to simplify product lookup and management, as well as a responsive portfolio website showcasing my skills and experiences.",
+        answer: "I have worked on several projects and challenges that helped me grow as a developer and explore different technologies, with a focus on solving problems, writing clean and efficient code, and building user-friendly solutions. You can find some of them above, along with demos and source code for you to explore in more detail. Do you want to hear about my skills ? ",
         details: [
           { 
             title: "Lidl PLU", 
-            type: "FrontEnd",
-            description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "",
+            type: "Mobile / FrontEnd",
+            image: "/images/lidlplu.png",
+            link_demo : "https://lidlplu.vercel.app/",
+            link_code : "https://github.com/nacimmkd/lidlplu",
           },
           { 
-            title: "Site Portfolio", 
+            title: "Extension UI", 
             type: "FrontEnd",
-            description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "", 
+            image: "/images/extentionUI.png",
+            link_demo : "https://browser-extension-manager-ui-xi.vercel.app/",
+            link_code : "https://github.com/nacimmkd/browser-extension-manager-ui", 
           },
           { 
-            title: "Lidl PLU", 
+            title: "Card Validation Form", 
             type: "FrontEnd",
-            description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "",
+            image: "/images/card_form.png",
+            link_demo : "https://interactive-card-form-ten.vercel.app/",
+            link_code : "https://github.com/nacimmkd/interactive-card-form", 
           },
           { 
-            title: "Site Portfolio", 
+            title: "Interactive Potfolio", 
             type: "FrontEnd",
-            description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "", 
+            image: "/images/portfolio.png",
+            link_demo : "https://myportfolio-weld-phi-82.vercel.app/",
+            link_code : "https://github.com/nacimmkd/myportfolio", 
           }
         ]
       }
@@ -69,19 +70,26 @@ export const dataEN = [
     questions: [
       { 
         id: "S1",
-        text: "What are your main skills?", 
-        answer: "My main skills include JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker and CI/CD pipelines, and working with databases such as MySQL and MongoDB.",
+        text: "What are your skills?", 
+        answer: "I mainly work with the React stack for front-end development and the Spring stack for back-end development. I also have experience with both SQL and NoSQL databases, and I integrate DevOps practices to ensure efficient deployment and reliability. You can find more details about my skills above. If you’d like to know more, feel free to contact me— I’ll be happy to answer your questions. ",
         details: [
-          {feild : "FrontEnd" , skills : ["Javascript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router"]},
-          {feild : "BackEnd" , skills : ["java" , "Spring" , "Spring Boot"]},
-          {feild : "Devops" , skills : ["docker" , "git" , "gitlabCI" , "Jenkins" , "AWS"]}
+          { field : "FrontEnd" , skills : ["JavaScript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router" , "react-hook-form"]},
+          { field : "BackEnd" , skills : ["Java" , "Spring" , "Spring Boot"]},
+          { field : "DataBase" , skills : ["PostgreSQL" , "mangoDB"]},
+          { field : "DevOps" , skills : ["Git" , "Docker" , "GitLab CI" , "Jenkins" , "AWS"]}
         ]
       },
       { 
         id: "S2",
-        text: "Where can i find you CV ?", 
-        answer: "You can Download my cv by click on the link below",
-        details: {name : "Resume" ,  type : "PDF" , link : "/cv_nacim.pdf" , updatedOn : new Date("2025-08-01"), size : "3.00" } // size En MB
+        text: "Where can I find your CV?", 
+        answer: "You can download my CV by clicking the link below.",
+        details: {
+          name : "Resume",  
+          type : "PDF", 
+          link : "/cv_nacim_en.pdf", 
+          updatedOn : new Date("2025-08-01"), 
+          size : "3.00" // Mb
+        }
       }
     ]
   },
@@ -93,7 +101,7 @@ export const dataEN = [
       { 
         id: "F1",
         text: "What do you do in your free time?", 
-        answer: "I enjoy playing video games 🎮, reading mangas & tech books 📚, and doing sports & hiking 🏔️."
+        answer: "In my free time, I love playing video games 🎮, getting lost in books 📚, and staying active with sports or hiking 🏔️. It’s how I relax, have fun, and keep my brain and body happy."
       }
     ]
   },
@@ -105,8 +113,14 @@ export const dataEN = [
       { 
         id: "C1",
         text: "How can we contact you?", 
-        answer: "You can reach me via email at your.email@example.com, on LinkedIn: https://linkedin.com/in/yourprofile, or on GitHub: https://github.com/yourusername.",
-        details : {email : "nacimmakedhi@gmail.com", linkedIn : "nacim-makedhi" , phone_number : "(+33) 758 328 748" , address : "France" }
+        answer: "You can reach me via email, LinkedIn, or GitHub.",
+        details : {
+          email : "nacimmakedhi@gmail.com", 
+          linkedIn : "https://linkedin.com/in/nacim-makedhi", 
+          github : "https://github.com/nacimmakedhi",
+          phone_number : "(+33) 758 328 748", 
+          address : "France" 
+        }
       }
     ]
   }
@@ -126,8 +140,13 @@ export const dataFR = [
       { 
         id: "M1",
         text: "Qui es-tu ?", 
-        answer: "Je suis Nacim Makedhi, un développeur passionné, concentré sur la création d’applications efficaces et conviviales. J’aime concevoir des solutions qui allient performance et expérience utilisateur.",
-        details : {fullName : "Nacim Makedhi", image : "/Me/me2.jpg" , dateOfBirth : new Date("2001-04-04") , address : "Paris , France"}
+        answer: "Je suis Nacim Makedhi, étudiant en Master à l'Université Sorbonne Paris Nord et futur développeur full-stack avec des compétences en DevOps. Je suis passionné par la conception et le déploiement d’applications efficaces, scalables et conviviales, combinant de solides compétences en développement avec des pratiques DevOps pour garantir performance, fiabilité et expérience utilisateur fluide. Voulez-vous voir mes compétences ?",
+        details : {
+          fullName : "Nacim Makedhi", 
+          image : "/Me/me2.jpg", 
+          dateOfBirth : new Date("2001-04-04"), 
+          address : "Paris, France"
+        }
       }
     ]
   },
@@ -139,39 +158,35 @@ export const dataFR = [
       { 
         id: "P1",
         text: "Sur quels projets as-tu travaillé ?", 
-        answer: "J'ai travaillé sur des projets, y compris une application mobile pour Lidl afin de simplifier la recherche et la gestion des produits, ainsi qu'un site portfolio responsive mettant en valeur mes compétences et expériences.",
+        answer: "J’ai travaillé sur plusieurs projets et défis qui m'ont permis de progresser en tant que développeur et d’explorer différentes technologies, en me concentrant sur la résolution de problèmes, l’écriture d’un code propre et efficace, et la création de solutions conviviales. Vous pouvez en trouver certains ci-dessus, avec les démos et le code source pour les explorer plus en détail. Voulez-vous connaître mes compétences ?",
         details: [
           { 
             title: "Lidl PLU", 
-            type: "FrontEnd",
-            description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "",
+            type: "Mobile / FrontEnd",
+            image: "/images/lidlplu.png",
+            link_demo : "https://lidlplu.vercel.app/",
+            link_code : "https://github.com/nacimmkd/lidlplu",
           },
           { 
-            title: "Site Portfolio", 
+            title: "Extension UI", 
             type: "FrontEnd",
-            description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "", 
+            image: "/images/extentionUI.png",
+            link_demo : "https://browser-extension-manager-ui-xi.vercel.app/",
+            link_code : "https://github.com/nacimmkd/browser-extension-manager-ui", 
           },
           { 
-            title: "Lidl PLU", 
+            title: "Card Validation Form", 
             type: "FrontEnd",
-            description: "Une application mobile conçue pour simplifier la recherche et la gestion de produits pour les employés de Lidl.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "",
+            image: "/images/card_form.png",
+            link_demo : "https://interactive-card-form-ten.vercel.app/",
+            link_code : "https://github.com/nacimmkd/interactive-card-form", 
           },
           { 
-            title: "Site Portfolio", 
+            title: "Interactive Portfolio", 
             type: "FrontEnd",
-            description: "Un portfolio responsive mettant en avant mes compétences, expériences et projets.", 
-            image: "/images/test.png",
-            link_demo : "",
-            link_code : "", 
+            image: "/images/portfolio.png",
+            link_demo : "https://myportfolio-weld-phi-82.vercel.app/",
+            link_code : "https://github.com/nacimmkd/myportfolio", 
           }
         ]
       }
@@ -184,19 +199,26 @@ export const dataFR = [
     questions: [
       { 
         id: "S1",
-        text: "Quelles sont tes compétences principales ?", 
-        answer: "Mes compétences principales incluent JavaScript/TypeScript, React/Next.js, Node.js/Express, Docker et CI/CD, ainsi que les bases de données comme MySQL et MongoDB.",
+        text: "Quelles sont tes compétences ?", 
+        answer: "Je travaille principalement avec le stack React pour le développement front-end et le stack Spring pour le back-end. J’ai également de l’expérience avec les bases de données SQL et NoSQL, et j’intègre des pratiques DevOps pour assurer un déploiement efficace et fiable. Vous pouvez trouver plus de détails sur mes compétences ci-dessus. Si vous voulez en savoir plus, n’hésitez pas à me contacter — je serai heureux de répondre à vos questions.",
         details: [
-          {feild : "FrontEnd" , skills : ["Javascript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router"]},
-          {feild : "BackEnd" , skills : ["java" , "Spring" , "Spring Boot"]},
-          {feild : "Devops" , skills : ["docker" , "git" , "gitlabCI" , "Jenkins" , "AWS"]}
+          { field : "FrontEnd" , skills : ["JavaScript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router" , "react-hook-form"]},
+          { field : "BackEnd" , skills : ["Java" , "Spring" , "Spring Boot"]},
+          { field : "DataBase" , skills : ["PostgreSQL" , "MongoDB"]},
+          { field : "DevOps" , skills : ["Git" , "Docker" , "GitLab CI" , "Jenkins" , "AWS"]}
         ]
       },
       { 
         id: "S2",
-        text: "Ou puis-je trouver ton CV ?", 
-        answer: "Vous pouvez le visualiser en cliquant le lien ci dessous",
-        details: {name : "Resume" ,  type : "PDF" , link : "/cv_nacim.pdf" , updatedOn : new Date("2025-08-01") , size : "3.00" } // size En MB
+        text: "Où puis-je trouver ton CV ?", 
+        answer: "Vous pouvez télécharger mon CV en cliquant sur le lien ci-dessous.",
+        details: {
+          name : "CV",  
+          type : "PDF", 
+          link : "/cv_nacim_fr.pdf", 
+          updatedOn : new Date("2025-08-01"), 
+          size : "3.00" 
+        }
       }
     ]
   },
@@ -208,7 +230,7 @@ export const dataFR = [
       { 
         id: "F1",
         text: "Que fais-tu pendant ton temps libre ?", 
-        answer: "J’aime jouer aux jeux vidéo 🎮, lire des mangas & livres tech 📚, et faire du sport & des randonnées 🏔️."
+        answer: "Pendant mon temps libre, j’aime jouer aux jeux vidéo 🎮, me plonger dans des livres tech et de développement personnel 📚, coder pour le plaisir 💻, et rester actif grâce au sport ou aux randonnées 🏔️. C’est ma manière de me détendre, de m’amuser et de rester motivé tout en continuant à apprendre."
       }
     ]
   },
@@ -220,8 +242,14 @@ export const dataFR = [
       { 
         id: "C1",
         text: "Comment peut-on te contacter ?", 
-        answer: "Vous pouvez me contacter par email à your.email@example.com, sur LinkedIn: https://linkedin.com/in/yourprofile, ou sur GitHub: https://github.com/yourusername.",
-        details : {email : "nacimmakedhi@gmail.com", linkedIn : "nacim-makedhi" , phone_number : "(+33) 758 328 748" , address : "France" }
+        answer: "Vous pouvez me contacter par email, LinkedIn ou GitHub.",
+        details : {
+          email : "nacimmakedhi@gmail.com", 
+          linkedIn : "https://linkedin.com/in/nacim-makedhi", 
+          github : "https://github.com/nacimmakedhi",
+          phone_number : "(+33) 758 328 748", 
+          address : "France" 
+        }
       }
     ]
   }
