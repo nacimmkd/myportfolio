@@ -46,7 +46,7 @@ export const dataEN = [
             link_code : "https://github.com/nacimmkd/browser-extension-manager-ui", 
           },
           { 
-            title: "Card Validation Form", 
+            title: "Card Form", 
             type: "FrontEnd",
             image: "/images/card_form.png",
             link_demo : "https://interactive-card-form-ten.vercel.app/",
@@ -175,7 +175,7 @@ export const dataFR = [
             link_code : "https://github.com/nacimmkd/browser-extension-manager-ui", 
           },
           { 
-            title: "Card Validation Form", 
+            title: "Card Form", 
             type: "FrontEnd",
             image: "/images/card_form.png",
             link_demo : "https://interactive-card-form-ten.vercel.app/",
