@@ -113,7 +113,7 @@ export const dataEN = [
       { 
         id: "C1",
         text: "How can we contact you?", 
-        answer: "You can reach me via email, LinkedIn, or GitHub.",
+        answer: "You can reach me via email or LinkedIn, feel free to contact me — I’ll be happy to answer your questions.",
         details : {
           email : "nacimmakedhi@gmail.com", 
           linkedIn : "nacim-makedhi", 
@@ -242,7 +242,7 @@ export const dataFR = [
       { 
         id: "C1",
         text: "Comment peut-on te contacter ?", 
-        answer: "Vous pouvez me contacter par email, LinkedIn ou GitHub.",
+        answer: "Vous pouvez me contacter par e-mail ou via LinkedIn, n’hésitez pas — je serai ravi de répondre à vos questions. ",
         details : {
           email : "nacimmakedhi@gmail.com", 
           linkedIn : "nacim-makedhi", 
