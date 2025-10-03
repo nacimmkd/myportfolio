@@ -113,7 +113,7 @@ export const dataEN = [
       { 
         id: "C1",
         text: "How can we contact you?", 
-        answer: "You can reach me via email or LinkedIn, feel free to contact me — I’ll be happy to answer your questions.",
+        answer: "I am currently seeking a 6-month internship. Feel free to reach out via email or LinkedIn — I would be happy to answer your questions and discuss potential opportunities",
         details : {
           email : "nacimmakedhi@gmail.com", 
           linkedIn : "nacim-makedhi", 
@@ -242,7 +242,7 @@ export const dataFR = [
       { 
         id: "C1",
         text: "Comment peut-on te contacter ?", 
-        answer: "Vous pouvez me contacter par e-mail ou via LinkedIn, n’hésitez pas — je serai ravi de répondre à vos questions. ",
+        answer: "Je suis actuellement à la recherche d’un stage de 6 mois. Vous pouvez me contacter par email ou via LinkedIn, je serai ravi de répondre à vos questions et d’échanger sur d’éventuelles opportunités.",
         details : {
           email : "nacimmakedhi@gmail.com", 
           linkedIn : "nacim-makedhi", 
