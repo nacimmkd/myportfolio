@@ -116,7 +116,7 @@ export const dataEN = [
         answer: "You can reach me via email, LinkedIn, or GitHub.",
         details : {
           email : "nacimmakedhi@gmail.com", 
-          linkedIn : "https://linkedin.com/in/nacim-makedhi", 
+          linkedIn : "nacim-makedhi", 
           github : "https://github.com/nacimmakedhi",
           phone_number : "(+33) 758 328 748", 
           address : "France" 
@@ -245,7 +245,7 @@ export const dataFR = [
         answer: "Vous pouvez me contacter par email, LinkedIn ou GitHub.",
         details : {
           email : "nacimmakedhi@gmail.com", 
-          linkedIn : "https://linkedin.com/in/nacim-makedhi", 
+          linkedIn : "nacim-makedhi", 
           github : "https://github.com/nacimmakedhi",
           phone_number : "(+33) 758 328 748", 
           address : "France" 
