@@ -74,8 +74,8 @@ export const dataEN = [
         answer: "I mainly work with the React stack for front-end development and the Spring stack for back-end development. I also have experience with both SQL and NoSQL databases, and I integrate DevOps practices to ensure efficient deployment and reliability. You can find more details about my skills above. If you’d like to know more, feel free to contact me— I’ll be happy to answer your questions. ",
         details: [
           { field : "FrontEnd" , skills : ["JavaScript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router" , "react-hook-form"]},
-          { field : "BackEnd" , skills : ["Java" , "Spring" , "Spring Boot"]},
-          { field : "DataBase" , skills : ["PostgreSQL" , "mangoDB"]},
+          { field : "BackEnd" , skills : ["Java" , "JakartaEE" , "Spring Boot"]},
+          { field : "DataBase" , skills : ["PostgreSQL"]},
           { field : "DevOps" , skills : ["Git" , "Docker" , "GitLab CI" , "Jenkins" , "AWS"]}
         ]
       },
