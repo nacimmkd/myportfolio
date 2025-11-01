@@ -5,7 +5,7 @@ export default function Question({ question , onClick }){
     return(
         <div className={styles.question_container} onClick={onClick}>
             <p>{question.text}</p>
-            <span className="material-symbols-outlined">chevron_right</span>
+            <img src="/icons/right_icon.svg" alt="to right icon" />
         </div> 
     )
 }
