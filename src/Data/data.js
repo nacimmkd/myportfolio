@@ -71,7 +71,7 @@ export const dataEN = [
       { 
         id: "S1",
         text: "What are your skills?", 
-        answer: "I mainly work with the React stack for front-end development and the Spring stack for back-end development. I also have experience with both SQL and NoSQL databases, and I integrate DevOps practices to ensure efficient deployment and reliability. You can find more details about my skills above. If you’d like to know more, feel free to contact me— I’ll be happy to answer your questions. ",
+        answer: "I mainly work with the React stack for front-end development and java for back-end. I also have experience with SQL databases, and I integrate DevOps practices to ensure efficient deployment and reliability. You can find more details about my skills above. If you’d like to know more, feel free to contact me— I’ll be happy to answer your questions. ",
         details: [
           { field : "FrontEnd" , skills : ["JavaScript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router" , "react-hook-form"]},
           { field : "BackEnd" , skills : ["Java" , "JakartaEE" , "Spring Boot"]},
@@ -200,7 +200,7 @@ export const dataFR = [
       { 
         id: "S1",
         text: "Quelles sont tes compétences ?", 
-        answer: "Je travaille principalement avec le stack React pour le développement front-end et le stack Spring pour le back-end. J’ai également de l’expérience avec les bases de données SQL et NoSQL, et j’intègre des pratiques DevOps pour assurer un déploiement efficace et fiable. Vous pouvez trouver plus de détails sur mes compétences ci-dessus. Si vous voulez en savoir plus, n’hésitez pas à me contacter — je serai heureux de répondre à vos questions.",
+        answer: "Je travaille principalement avec le stack React pour le développement front-end et java pour le back-end. J’ai également de l’expérience avec les bases de données SQL, et j’intègre des pratiques DevOps pour assurer un déploiement efficace et fiable. Vous pouvez trouver plus de détails sur mes compétences ci-dessus. Si vous voulez en savoir plus, n’hésitez pas à me contacter — je serai heureux de répondre à vos questions.",
         details: [
           { field : "FrontEnd" , skills : ["JavaScript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router" , "react-hook-form"]},
           { field : "BackEnd" , skills : ["Java" , "JakartaEE" , "Spring Boot"]},
