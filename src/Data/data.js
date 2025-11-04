@@ -101,7 +101,7 @@ export const dataEN = [
       { 
         id: "F1",
         text: "What do you do in your free time?", 
-        answer: "In my free time, I love playing Chess, video games 🎮, getting lost in books 📚, and staying active with sports or hiking 🏔️. It’s how I relax, have fun, and keep my brain and body happy."
+        answer: "In my free time, I love playing Chess, video games 🎮, getting lost in books 📚, and staying active with sports. It’s how I relax, have fun, and keep my brain and body happy."
       }
     ]
   },
@@ -230,7 +230,7 @@ export const dataFR = [
       { 
         id: "F1",
         text: "Que fais-tu pendant ton temps libre ?", 
-        answer: "Pendant mon temps libre, j’aime jouer aux jeux vidéo 🎮, jeu d'échec, me plonger dans des livres tech et de développement personnel 📚, coder pour le plaisir 💻, et rester actif grâce au sport ou aux randonnées 🏔️. C’est ma manière de me détendre, de m’amuser et de rester motivé tout en continuant à apprendre."
+        answer: "Pendant mon temps libre, j’aime jouer aux jeux vidéo 🎮, jeu d'échec, me plonger dans des livres tech et de développement personnel 📚, coder pour le plaisir 💻, et rester actif grâce au sport. C’est ma manière de me détendre, de m’amuser et de rester motivé tout en continuant à apprendre."
       }
     ]
   },
