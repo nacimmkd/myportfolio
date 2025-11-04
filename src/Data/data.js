@@ -87,8 +87,8 @@ export const dataEN = [
           name : "Resume",  
           type : "PDF", 
           link : "/cv_nacim_en.pdf", 
-          updatedOn : new Date("2025-08-01"), 
-          size : "3.00" // Mb
+          updatedOn : new Date("2025-11-01"), 
+          size : "1.00" // Mb
         }
       }
     ]
@@ -203,8 +203,8 @@ export const dataFR = [
         answer: "Je travaille principalement avec le stack React pour le développement front-end et le stack Spring pour le back-end. J’ai également de l’expérience avec les bases de données SQL et NoSQL, et j’intègre des pratiques DevOps pour assurer un déploiement efficace et fiable. Vous pouvez trouver plus de détails sur mes compétences ci-dessus. Si vous voulez en savoir plus, n’hésitez pas à me contacter — je serai heureux de répondre à vos questions.",
         details: [
           { field : "FrontEnd" , skills : ["JavaScript" , "TypeScript" , "ReactJs" , "Zustand" , "React-Router" , "react-hook-form"]},
-          { field : "BackEnd" , skills : ["Java" , "Spring" , "Spring Boot"]},
-          { field : "DataBase" , skills : ["PostgreSQL" , "MongoDB"]},
+          { field : "BackEnd" , skills : ["Java" , "JakartaEE" , "Spring Boot"]},
+          { field : "DataBase" , skills : ["PostgreSQL"]},
           { field : "DevOps" , skills : ["Git" , "Docker" , "GitLab CI" , "Jenkins" , "AWS"]}
         ]
       },
@@ -216,8 +216,8 @@ export const dataFR = [
           name : "CV",  
           type : "PDF", 
           link : "/cv_nacim_fr.pdf", 
-          updatedOn : new Date("2025-08-01"), 
-          size : "3.00" 
+          updatedOn : new Date("2025-11-01"), 
+          size : "1.00" 
         }
       }
     ]
