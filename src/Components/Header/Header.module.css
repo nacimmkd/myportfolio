@@ -24,6 +24,7 @@
 
 .cv_btn_container {   
     width: fit-content;
+    height: 40px;
     align-content: center;
     border: none;
     border-radius: 30px;
@@ -54,6 +55,7 @@
 
 .lang_btn_container {
     width: fit-content;
+    height: 40px;
     animation: SlowDisplay 1s ease-in;   
     cursor: pointer;
 }
@@ -122,14 +124,8 @@
 }
 
 
-@media (max-width : 500px) {
+@media (max-width : 600px) {
 
-    .cv_btn_container {
-        height: 40px;
-    }
-    .lang_btn_container {
-        height: 40px;
-    }
     .cv_complete_name {
         display: none;
     }

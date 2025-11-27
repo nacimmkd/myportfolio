@@ -1,6 +1,6 @@
 .button_container {
     width: 100px;
-    height: 80px ;
+    height: 70px ;
     border: 1px solid var(--border-color);
     border-radius: 20px;
     color: var(--text-main-color);

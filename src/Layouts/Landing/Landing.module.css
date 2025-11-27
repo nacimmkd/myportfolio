@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     gap: 4vh;
-    padding: 2rem 0 1rem 0 ;
+    padding: 1rem 0 1rem 0 ;
 }
 
 .title_container {
@@ -20,7 +20,7 @@
 }
 
 .title_container .name {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .title_container .job {
@@ -56,12 +56,13 @@
 
 
 .img_background {
-    height: 300px;
+    height: 100%;
     width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     animation: SlowDisplay 1s ease-in;
+    cursor: pointer;
 }
 
 
@@ -85,7 +86,7 @@
 }
 
 .img_open {
-    max-height: 300px;
+    max-height: 280px;
     position: fixed;
     box-shadow:  0 0 10px 2px rgba(48, 32, 32, 0.446);
     transform: scale(1.8);
@@ -98,14 +99,12 @@
     transition: opacity 0.8s ease-in-out;
 }
 
-@media (max-width : 600px) {
 
-    .img_container img {
-        height: 220px;
+@media (max-width:800px) {
+    .img_open {
+        max-height: 200px;
     }
-
 }
-
 
 
 @keyframes moveDown {
