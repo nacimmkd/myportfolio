@@ -1,6 +1,6 @@
 .container {
-    min-height: 350px;
-    min-width: 250px;
+    min-height: 300px;
+    min-width: 200px;
     border-radius: 30px;
     padding: 1rem;
     background: linear-gradient(
@@ -86,12 +86,4 @@
     background: rgba(255, 255, 255, 0.85); /* léger transparent */
     box-shadow: 0 8px 20px rgba(0,0,0,0.35); /* ombre plus marquée */
     border: 1px solid rgba(0,0,0,0.1); /* fine bordure élégante */
-}
-
-
-@media (max-width : 500px) {
-    .container {
-        min-height: 300px;
-        min-width: 200px;
-    }
 }

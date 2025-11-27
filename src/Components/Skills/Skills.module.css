@@ -1,17 +1,18 @@
 .container {
     width: 100%;
     height: fit-content;  
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: 20px;
     background-color: var(--light-grey-color);
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
     animation: moveDown 1s ease;
+    font-size: 1rem;
 }
 
 .container .name {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding-bottom: 0.5rem;
 }
 
@@ -25,6 +26,10 @@
     align-items: center;
     justify-content: flex-start;
     gap: 0.5rem;
+}
+
+.field h1 {
+    font-size: 1.2rem;
 }
 
 .field span {

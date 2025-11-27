@@ -1,6 +1,7 @@
  .container {
     width: 100%; 
     min-height: fit-content;
+    max-height: 100px;
     padding: 1rem;
     border-radius: 20px;
     
