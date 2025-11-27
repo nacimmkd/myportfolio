@@ -1,7 +1,7 @@
 .user_info_container {
     max-width: 1200px;
     width: 90%;
-    height: 280px;
+    max-height: 280px;
     margin: 0 auto;
     display: flex;
     align-items: center;
